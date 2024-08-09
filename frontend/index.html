@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <title>Safe Elimination</title>
+    <link rel="stylesheet" href="src\styles\styless.css">
+
+</head>
+<body>
+
+    <div class="Rules">
+        <h1>SafeElimination</h1>
+        <p>
+            Two players are chosen randomly from the group. 
+            One player will know the status (safe or eliminated) and the other will try to guess it by asking questions.
+            Player B also has the option to steal the card
+        </p>
+        <h2>How to Play</h2>
+
+        <h4>Selecting Players</h4>
+        <ol>
+            <li> At the start of each round, the facilitator randomly selects two players from the group.</li>
+            <li>One of the two selected players is randomly chosen to view the card.</li>
+        </ol>
+        <h4>Questioning Phase</h4>
+        <ol>
+            <li>The player who did not see the card (Player B) starts asking questions to the player who saw the card (Player A).</li>
+            <li>The questioning phase lasts for a predetermined number of questions</li>
+        </ol>
+        <h4>Decision Phase</h4>
+        <p>After the questioning phase, Player B must decide whether to steal the card or not.</p>
+        <ul>
+            <li>If Player B steals the card:
+                <ul>
+                    <li>If it’s a Safe card, Player B remains in the game, and Player A is safe for this round.</li>
+                    <li>If it’s an Elimination card, Player B is eliminated from the game.</li>
+                </ul>
+            </li>
+            <li>If Player B does not steal the card:
+                <ul>
+                    <li>If it’s a Safe card, both players remain in the game.</li>
+                    <li>If it’s an Elimination card, Player A is eliminated from the game.</li>
+                </ul>
+            </li>
+        </ul>
+
+        <h4>Winning the Game</h4>
+        <p>The game continues with rounds of questioning and decision-making until only one player remains. That player is declared the winner.</p>
+
+    </div>
+
+    <div id="countForm">
+        <h2>Enter The Player Count</h2>
+        <form>
+            <input type="number" id="playerCount" class="inputBox">
+            <button type="submit" class="btn">Let's Start</button>
+
+        </form>
+
+    </div>
+    
+</body>
+</html>
