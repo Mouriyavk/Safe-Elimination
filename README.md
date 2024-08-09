@@ -36,9 +36,8 @@ In each round, two players are selected from the group. One player is shown a ca
 
 ### Questioning Phase
 
-1. The player who did not see the card (Player B) starts asking yes/no questions to the player who saw the card (Player A).
-2. Player A must answer truthfully.
-3. The questioning phase lasts for a predetermined number of questions (e.g., 3 questions).
+1. The player who did not see the card (Player B) starts asking questions to the player who saw the card (Player A).
+2. The questioning phase lasts for a predetermined number of questions
 
 ### Decision Phase
 
@@ -59,10 +58,7 @@ The game continues with rounds of questioning and decision-making until only one
 1. Players: Alice, Bob, Charlie, and Dana.
 2. Facilitator selects Alice and Bob.
 3. Alice is shown an Elimination card.
-4. Bob asks:
-   - "Is it safe?" Alice answers truthfully, "No."
-   - "Do you think I should steal it?" Alice answers, "No."
-   - "Would you be worried if I stole it?" Alice answers, "Yes."
+4. Bob asks questoions
 5. Bob decides not to steal the card.
 6. Since the card was an Elimination card, Alice is eliminated.
 7. The game continues with the remaining players.
